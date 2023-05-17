@@ -1,0 +1,83 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#esc{
+    float: left;
+    margin-left: 250px;
+    width: 50px; height: 55px;
+}
+#logo{
+    float: right;
+    margin-right: 250px;
+}
+nav{
+    background-color: #0B0B3B;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 52x;
+}
+.menuhorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.menuhorizontal > li > a{
+    display: block;
+    padding: 18px;
+    color: #FDC52C;
+    text-decoration: none;
+}
+.menuvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 150px;
+    background-color: rgba(11,11,59,0.7);
+}
+.menuhorizontal li:hover .menuvertical{
+    display: block;
+}
+.menuvertical li a{
+    display: block;
+    color: #FDC52C;
+    text-decoration: none;
+    text-align: center;
+}
+#titulo{
+background-color: #5755AB;
+height: auto;
+color: white;
+border: 1px black;
+font-size: 40px;
+font-weight: bold;
+}
+#titulo > div{
+    margin-left: 250px;
+}
+.titul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+.principal{
+    text-align: left;
+    margin-left: 250px;
+    font-size: 13px;
+    border: 10px;;
+}
+table{
+    margin-right: 10px;
+}
+.opacity:hover{
+    opacity: 0.6;
+}
+.siglas{
+font-size: 30px
+}
+.nombre{
+    font-weight: bold;
+    margin-top: auto;
+}
